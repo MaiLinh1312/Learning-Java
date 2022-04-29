@@ -19,10 +19,24 @@ public class OracleConnUtils {
 //     String userName = "dsod";
 //     String password = "dsod";
 //     return getOracleConnection(hostName, sid, userName, password);
-   String hostName = "5.1.182.21";
-   String sid = "pmkp";
-   String userName = "system";
-   String password = "dev";
+//   String hostName = "5.1.182.21";
+//   String sid = "pmkp";
+//   String userName = "system";
+//   String password = "dev";
+//		<property name="hibernate.connection.url" value="jdbc:oracle:thin:@10.1.1.91:1521:VMDB01" />
+//		<property name="hibernate.connection.username" value="DSOD" />
+//		<property name="hibernate.connection.password" value="DSOD" />
+//	 <!-- 			<property name="hibernate.connection.url" value="jdbc:oracle:thin:@10.8.1.32:1521:ftldb03" /> -->
+//	 <!-- 			<property name="hibernate.connection.username" value="dsod" /> -->
+//	 <!-- 			<property name="hibernate.connection.password" value="ora@it2013" /> -->
+   String hostName = "10.1.1.91";
+   String sid = "VMDB01";
+   String userName = "DSOD";
+   String password = "DSOD";
+//	   String hostName = "10.8.1.32";
+//	   String sid = "ftldb03";
+//	   String userName = "dsod";
+//	   String password = "ora@it2013";
    return getOracleConnection(hostName, sid, userName, password);
  }
  
